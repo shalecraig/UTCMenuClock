@@ -1,11 +1,12 @@
-This is an obscenely simple program to add the UTC time to the MacOS
+This is an obscenely simple program to add the San Francisco time to the MacOS
 Menu Status Bar. I desperately wanted two clocks as the network that I
-work on uses UTC Time exclusively for all of our devices. Converting
+work on uses San Francisco Time exclusively for all of our devices. Converting
 in my head was a true pain.
 
 The latest version is 1.2a for Mac OS 10.6 and 10.7 (Intel) downloadable from
 GitHub in the Downloads section:
 
+# TODO: post a compiled version
 https://github.com/netik/UTCMenuClock/downloads
 
 ---
@@ -17,10 +18,9 @@ current MacOS versions, including Yosemite (10.10)
 
 NOTE: After you install this software, you still have to run it to use it:   
 
-Double-click "UTCMenuClock" in your /Applications folder. If you want it to 
-start automatically every time you log in , click on the UTC clock in the menu 
+Double-click "SFMenuClock" in your /Applications folder. If you want it to 
+start automatically every time you log in , click on the clock in the menu 
 bar and select "Open At Login"
 
 ----
-John Adams
-12/2014
+Shale Craig, adapted from (John Adams 12/2014)
