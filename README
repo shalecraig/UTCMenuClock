@@ -1,7 +1,6 @@
 This is an obscenely simple program to add the San Francisco time to the MacOS
-Menu Status Bar. I desperately wanted two clocks as the network that I
-work on uses San Francisco Time exclusively for all of our devices. Converting
-in my head was a true pain.
+Menu Status Bar. I desperately wanted two clocks as people I work with tend to
+live in San Francisco. Converting in my head was a true pain.
 
 The latest version is 1.2a for Mac OS 10.6 and 10.7 (Intel) downloadable from
 GitHub in the Downloads section:
