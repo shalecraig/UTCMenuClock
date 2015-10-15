@@ -87,12 +87,12 @@ NSMenuItem *showTimeZoneItem;
     NSDateFormatter* UTCdateShortDF = [[[NSDateFormatter alloc] init] autorelease];
     NSDateFormatter* UTCdaynum = [[[NSDateFormatter alloc] init] autorelease];
     
-    NSTimeZone* UTCtz = [NSTimeZone timeZoneWithAbbreviation:@"GMT"];
+    NSTimeZone* SFtz = [NSTimeZone timeZoneWithAbbreviation:@"America/Los_Angeles"];
 
-    [UTCdf setTimeZone: UTCtz];
-    [UTCdateDF setTimeZone: UTCtz];
-    [UTCdateShortDF setTimeZone: UTCtz];
-    [UTCdaynum setTimeZone: UTCtz];
+    [UTCdf setTimeZone: SFtz];
+    [UTCdateDF setTimeZone: SFtz];
+    [UTCdateShortDF setTimeZone: SFtz];
+    [UTCdaynum setTimeZone: SFtz];
 
     BOOL showDate = [self fetchBooleanPreference:@"ShowDate"];
     BOOL showSeconds = [self fetchBooleanPreference:@"ShowSeconds"];
@@ -123,7 +123,7 @@ NSMenuItem *showTimeZoneItem;
     }
     
     if (showTimeZone) { 
-        UTCTzString = @" UTC";
+        UTCTzString = @" @SF";
     } else { 
         UTCTzString = @"";
     }
